@@ -1,0 +1,36 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FAF9F6;
+  color: #333;
+}
+.header {
+  text-align: center;
+  background: linear-gradient(to right, #D98CA6, #E68A6F);
+  color: white;
+  padding: 2rem;
+}
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.sobre, .instagram {
+  padding: 2rem;
+  text-align: center;
+}
+.insta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  margin-top: 1rem;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #D98CA6;
+  color: white;
+}
